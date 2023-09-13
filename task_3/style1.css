@@ -1,0 +1,38 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 20;
+    padding: 20;
+    background-color: #e4cdcd;
+}
+
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.container {
+    background-color: #c7c0c0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+</style>
