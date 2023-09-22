@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webinar Registration</title>
+    <link rel="stylesheet" href="task_5.css">
+</head>
+<body>
+    <header>
+        <tr><img src="https://www.softwaresuggest.com/blog/wp-content/uploads/2019/08/Webinar-1.png" width="150" height="100" ></tr>
+        <h1>Webinar Registration</h1>
+    </header>
+    <div class="container">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="college">College:</label>
+            <input type="text" id="college" name="college" required>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="India">India</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <!-- Add more countries as needed -->
+            </select>
+
+            <hr>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
